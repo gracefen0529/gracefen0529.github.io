@@ -486,7 +486,8 @@ li a:hover {
 #about {
   background: #f8f8f8cc;
   margin: 0 auto;
-  padding: 80px 250px;
+  margin-bottom: 30px;
+  /* padding: 80px 250px; */
   max-width: 100%;
 }
 
@@ -499,7 +500,7 @@ li a:hover {
   .about-desc h1 {
       font-size: 14px;
       font-weight: 900;
-      margin: 13px 70px 25px;
+      margin: 13px 95px 25px;
   }
 
 
@@ -792,6 +793,7 @@ li a:hover {
     .carousel-caption h5 {font-size: 20px;line-height: 1;}
     .carousel-caption p {font-size: 12px;}
     #about {padding: 40px 50px;}
+    .about-img { width: 90%;margin: 0 auto;margin-bottom: 80px;}
   }
   @media screen and (max-width: 600px) {
     .menu {margin: 100px 0;}
